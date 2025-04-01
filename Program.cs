@@ -1,3 +1,8 @@
+// Author - Jean Bryant Figueroa
+// Course - COMP003B - ASP.NET Core
+// Faculty - Johnathan Cruz
+// Purpose - Demonstrate routing, model binding, and validation in ASP.NET Core MVC 
+
 namespace COMP003B.LectureActivity3
 {
     public class Program

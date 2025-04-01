@@ -1,6 +1,15 @@
-﻿namespace COMP003B.LectureActivity3.Controllers
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc;
+
+namespace COMP003B.LectureActivity3.Controllers
 {
-    public class StoreController
+    [Route "store"]  
+    public class StoreController : Controller
     {
+        [Route("product/{id:int}")]
+        public IActionResult ViewProduct(int id)
+        {
+            return View();
+        }
     }
 }
