@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using COMP003B.LectureActivity3.Models;
 
 namespace COMP003B.LectureActivity3.Controllers
@@ -20,7 +19,7 @@ namespace COMP003B.LectureActivity3.Controllers
             {
                 return View(product);
             }
-            return RedirectToAction("Sucess", product);
+            return RedirectToAction("Success", product);
         }
         [Route("success")]
         public IActionResult Success(Product product)

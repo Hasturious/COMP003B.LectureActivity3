@@ -10,9 +10,9 @@ namespace COMP003B.LectureActivity3.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
-            return View(ID);
+            return View(id);
         }
     }
 }
